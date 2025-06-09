@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+.form-container {
+  margin: 100px auto;
+}
+
+.btn-submit {
+  background-color: #184d97;
+  font-family: cursive;
+  border: none;
+}
+
+.btn-submit:hover {
+  background-color: #184d97d7;
+  border: none;
+  outline: none;
+}
+
+label {
+  color: #184d97;
+  font-family: cursive;
+}
+
+.custom-focus:focus {
+  background: #f4f8db;
+  outline: none;
+}
+
+.user-id{
+  font-size: 25px;
+}
+
+.id {
+  font-family: math;
+  font-weight: bolder;
+}
+
+@media (max-width:564px) {
+
+  .welcome {
+    flex-direction: column-reverse;
+  }
+
+  .welcome h1 {
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .welcome h4 {
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+
+  .profile-pg h4 {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .form-container {
+    width: auto;
+    margin: 100px 40px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .home-link {
+    margin-left: 38px;
+    margin-right: 25px;
+  }
+
+
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: cursive;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
